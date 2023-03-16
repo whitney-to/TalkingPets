@@ -21,7 +21,7 @@ public class CatTest {
     @Test
     public void testConstructor() {
         String expectedName = "Whitcat";
-        Cat cat = new Cat(expectedName);
+        Pet cat = new Cat(expectedName);
 
         String actualName = cat.getName();
 

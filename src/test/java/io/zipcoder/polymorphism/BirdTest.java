@@ -11,7 +11,7 @@ public class BirdTest {
         Bird birdy = new Bird (null);
 
         String testBark = birdy.speak();
-        String bark = "Bark!";
+        String bark = "Chirp!";
 
         Assert.assertEquals(bark, testBark);
     }
